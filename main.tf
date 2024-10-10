@@ -22,7 +22,7 @@ provider "azurerm" {
 
   }
   skip_provider_registration = true
-  subscription_id = "0cfe2870-d256-4119-b0a3-16293ac11bdc"
+  subscription_id            = "0cfe2870-d256-4119-b0a3-16293ac11bdc"
 }
 
 resource "azurerm_resource_group" "rg" {
